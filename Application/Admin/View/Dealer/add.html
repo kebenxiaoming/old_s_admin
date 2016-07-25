@@ -1,0 +1,49 @@
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<include file="Public/message"/>
+
+<div class="cpgl_cplb">
+    <script src="__PUBLIC__/Admin/js/area.js"></script>
+    <form method="post" action="">
+        <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cptj">
+            <tr>
+                <td width="106" height="80">登录名</td>
+                <td width="749"><input name="user_name" type="text" value="{$_POST.user_name}" class="cpgl_cptj_mc" style="width: 413px" required="true"></td>
+            </tr>
+            <tr>
+                <td height="80">密码</td>
+                <td><input name="password" type="text" class="cpgl_cptj_mc" value="{$_POST.password}" style="width: 413px" required="true"></td>
+            </tr>
+            <tr>
+                <td width="106" height="80">经销商名称</td>
+                <td width="749"><input name="real_name" type="text" class="cpgl_cptj_mc" value="{$_POST.real_name}" style="width: 413px" placeholder="例如：青岛市市北经销商***" required="true"></td>
+            </tr>
+            <tr>
+                <td width="106" height="80">所在区域</td>
+                <script>
+                    var choose_province="{:U('Area/getProvinces')}",choose_city="{:U('Area/getCities')}",choose_area="{:U('Area/getAreas')}";
+                </script>
+                <td id="choose_cityarea"></td>
+            </tr>
+            <tr>
+                <td height="80">联系方式</td>
+                <td><input name="mobile" type="text" class="cpgl_cptj_mc" style="width: 413px" value="{$_POST.mobile}" placeholder="请填写手机号" required="true"></td>
+            </tr>
+
+            <tr>
+                <td height="80" colspan="2"><div class="dsjj_nr_menu">
+                    <input name="" type="submit" value="提交" />
+                </div></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+</div>
+
+<!--- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 --->
+<include file ="Public/footer"/>

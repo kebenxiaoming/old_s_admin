@@ -1,0 +1,39 @@
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<include file="Public/message"/>
+
+<div class="cpgl_cplb">
+    <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_bt">
+        <tr>
+            <td width="223" height="60" align="center">标题</td>
+            <td width="124" align="center">排序</td>
+            <td width="126" align="center">缩略图</td>
+            <td width="141" align="center">设计师</td>
+            <td width="138" align="center">创建时间</td>
+            <td width="103" align="center">操作</td>
+        </tr>
+    </table>
+    <volist name="works" id="work">
+        <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_nr">
+            <tr>
+                <td width="223" height="60" align="center">{$work.title}</td>
+                <td width="124" align="center">{$work.sort}</td>
+                <td width="126" align="center" class="zplb_nr"><img src="<php>echo getImg($work['pics']);</php>" width="70" height="35" /></td>
+                <td width="142" align="center">{$work.real_name}</td>
+                <td width="137" align="center"><php>echo date('Y-m-d',$work['createtime']);</php></td>
+                <td width="103" align="center"><a href="{:U('Work/edit',array('id'=>$work['id']))}"><img src="__PUBLIC__/Admin//images/cp_11.jpg" width="27" height="27" /></a></td>
+            </tr>
+        </table>
+    </volist>
+
+    <div class="intro_cxcp_nr_fy">{$page_html}</div>
+</div>
+</div>
+</div>
+
+<!--- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 --->
+<include file ="Public/footer"/>

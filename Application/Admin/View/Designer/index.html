@@ -1,0 +1,47 @@
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<include file="Public/message"/>
+
+<div class="cpgl_cplb">
+    <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_bt">
+        <tr>
+            <td width="143" height="60" align="center">设计师姓名</td>
+            <td width="148" align="center">所在地区</td>
+            <td width="145" align="center">供职企业</td>
+            <td width="105" align="center">手机号</td>
+            <td width="105" align="center">创建时间</td>
+            <td width="100" align="center">会员等级</td>
+            <td width="109" align="center">操作</td>
+        </tr>
+    </table>
+    <foreach name="designers" item="designer">
+    <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_nr">
+        <tr>
+            <td width="44" height="48" align="center"><input type="checkbox" name="checkbox" id="checkbox" /></td>
+            <td width="99" align="left">{$designer.real_name}</td>
+            <td width="147" align="center"><php>echo getLocation($designer['city_id'],$designer['area_id']);</php></td>
+            <td width="146" align="center">{$designer.company}</td>
+            <td width="105" align="center">{$designer.mobile}</td>
+            <td width="106" align="center"><php>echo date("Y-m-d",$designer['createtime']);</php></td>
+            <td width="100" align="center">
+                <if condition="$designer['level'] eq 0">
+                白金会员
+                <else/>
+                其他等级会员
+                </if>
+            </td>
+            <td width="108" align="center"><a href="{:U('Designer/edit',array('user_id'=>$designer['user_id']))}"><img src="__PUBLIC__/Admin/images/cp_11.jpg" width="27" height="27" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a goto="{:U('Designer/del',array('user_id'=>$designer['user_id']))}" class="icon-remove"><img src="__PUBLIC__/Admin/images/cp_13.jpg" width="27" height="27" /></a></td>
+        </tr>
+    </table>
+    </foreach>
+    <div class="intro_cxcp_nr_fy">{$page_html}</div>
+</div>
+</div>
+</div>
+
+<!--- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 --->
+<include file ="Public/footer"/>

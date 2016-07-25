@@ -1,0 +1,48 @@
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<include file="Public/message"/>
+
+<div class="cpgl_cplb">
+    <form action="" method="post">
+        <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cptj">
+            <tr>
+                <td width="855" height="80"><div class="cpgl_cptj_xl">
+                    <select name="msg_type">
+                        <option value="1">短信联络</option>
+                        <option value="2">邮件联络</option>
+                        <option value="3">站内信联络</option>
+                    </select>
+                </div></td>
+            </tr>
+            <tr>
+
+                <td width="855" height="80"><div class="cpgl_cptj_xl">
+                    <select name="touid">
+                        <option value="0">全部设计师</option>
+                        <foreach name="designers" item="designer">
+                            <option value="{$designer.user_id}">{$designer.real_name}</option>
+                        </foreach>
+                    </select>
+                </div></td>
+            </tr>
+            <td width="855" height="194"> <textarea name="msg" id="textarea" onKeyDown="textdown(event)"
+                                                    onKeyUp="textup()" onfocus="if(value=='请输入联络内容（70个字符以内）'){value=''}"
+                                                    onblur="if (value ==''){value='请输入联络内容（70个字符以内）'}" class="cpgl_cptj_cs">请输入联络内容（70个字符以内）</textarea></textarea> </td>
+            </tr>
+            <tr>
+                <td height="80" colspan="2"><div class="dsjj_nr_menu">
+                    <input name="" type="submit" value="提交" />
+                </div></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+</div>
+
+<!--- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 --->
+<include file ="Public/footer"/>

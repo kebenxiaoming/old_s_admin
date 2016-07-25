@@ -1,0 +1,262 @@
+<include file="Public/header"/>
+<div class="m-wrap">
+    <div class="title02"></div>
+    <ul class="p-menu">
+        <li>燃气热水器<img src="__PUBLIC__/Home/img/p-tip.png"></li>
+        <li>电热水器<img src="__PUBLIC__/Home/img/p-tip.png"></li>
+    </ul>
+</div>
+<div class="p-wrap">
+    <div class="p-item" style="height:540px;">
+        <img src="__PUBLIC__/Home/img/chanpinbig.jpg">
+        <div class="swiper-container" id="quanxin">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="__PUBLIC__/Home/img/chnpins1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="__PUBLIC__/Home/img/chnpins2.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev quanxinnext" id="quanxinnext"></div>
+    </div>
+    <div class="p-item"  style="display:block;margin-bottom:33px">
+        <div class="swiper-container" id="ranqi">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <ul class="p-list-wrap">
+                        <php>$products=getProductsByCate(10);</php>
+                        <if condition="count($products) egt 8">
+                            <for start="0" end="8">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                            <else/>
+                            <php>$end=count($products);</php>
+                            <for start="0" end="$end">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                        </if>
+                    </ul>
+                </div>
+                <if condition="$products">
+                <if condition="count($products) gt 8">
+                <div class="swiper-slide">
+                    <ul class="p-list-wrap">
+                            <php>$end=count($products);</php>
+                            <for start="8" end="$end">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                    </ul>
+                </div>
+                </if>
+                </if>
+            </div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev ranqinext" id="ranqinext"></div>
+        <div class="swiper-button-next ranqiprev" id="ranqiprev"></div>
+    </div>
+    <div class="p-item">
+        <div class="swiper-container" id="dian" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <php>$products=getProductsByCate(9);</php>
+                    <ul class="p-list-wrap">
+                        <if condition="$products">
+                        <if condition="count($products) egt 8">
+                            <for start="0" end="7">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                            <else/>
+                            <php>$end=count($products);</php>
+                            <for start="0" end="$end">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                        </if>
+                        </if>
+                    </ul>
+                </div>
+                <if condition="$products">
+                <if condition="count($products) gt 8">
+                <div class="swiper-slide">
+                    <ul class="p-list-wrap">
+                            <php>$end=count($products);</php>
+                            <for start="0" end="$end">
+                                <li>
+                                    <img src="{$products[$i]['picpath']}" class="rsq">
+                                    <div class="zibg">
+                                        <a href="">
+                                            <p style="margin-top:36px">{$products[$i]['title']}</p>
+                                            <p>{$products[$i]['parameter']}</p>
+                                        </a>
+                                    </div>
+                                    <div class="huibg"></div>
+                                </li>
+                            </for>
+                    </ul>
+                </div>
+                </if>
+                </if>
+            </div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev diannext" id="diannext"></div>
+        <div class="swiper-button-next dianprev" id="dianprev"></div>
+    </div>
+</div>
+<div class="footer-wrap" style="position:relative">
+    <div style="background:#000;margin-top:20px;">
+        <ul class="footer-menu">
+            <li>
+                <a href="{:U('Index/instruction')}">
+                    <img src="__PUBLIC__/Home/img/menu01.png" class="zh-cn">
+                    <div class="cn">大赛简介</div>
+                    <img src="__PUBLIC__/Home/img/purple.png" class="purple">
+                    <img src="__PUBLIC__/Home/img/gray.png" class="gray">
+                </a>
+            </li>
+            <li class="active">
+                <a href="{:U('Product/index')}">
+                    <img src="__PUBLIC__/Home/img/menu02.png" class="zh-cn">
+                    <div class="cn">产品展示</div>
+                    <img src="__PUBLIC__/Home/img/purple.png" class="purple">
+                    <img src="__PUBLIC__/Home/img/gray.png" class="gray">
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Work/index')}">
+                    <img src="__PUBLIC__/Home/img/menu03.png" class="zh-cn">
+                    <div class="cn">作品展示</div>
+                    <img src="__PUBLIC__/Home/img/purple.png" class="purple">
+                    <img src="__PUBLIC__/Home/img/gray.png" class="gray">
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Message/index')}">
+                    <img src="__PUBLIC__/Home/img/menu04.png" class="zh-cn">
+                    <div class="cn">消息中心</div>
+                    <img src="__PUBLIC__/Home/img/purple.png" class="purple">
+                    <img src="__PUBLIC__/Home/img/gray.png" class="gray">
+                </a>
+            </li>
+            <li>
+                <a href="{:U('Person/index')}">
+                    <img src="__PUBLIC__/Home/img/menu05.png" class="zh-cn">
+                    <div class="cn">个人中心</div>
+                    <img src="__PUBLIC__/Home/img/purple.png" class="purple">
+                    <img src="__PUBLIC__/Home/img/gray.png" class="gray">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Home/js/swiper.min.js"></script>
+<script type="text/javascript">
+    // $(".swiper-container").height($(window).height()-213);
+    $(function(){
+        var mySwiper = new Swiper ('#ranqi', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay : false,
+            nextButton: '.ranqiprev',
+            prevButton: '.ranqinext'
+            // paginationClickable :true
+        });
+        var myDian = new Swiper ('#dian', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay : false,
+            nextButton: '.dianprev',
+            prevButton: '.diannext'
+            // paginationClickable :true
+        });
+        var quanxin = new Swiper ('#quanxin', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay : false,
+            nextButton: '.quanxinnext'
+            // paginationClickable :true
+        });
+    });
+
+    $('.p-menu li').each(function(index){
+        $(this).click(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.p-item').eq(index+1).css('display','block').siblings().css('display','none');
+        });
+    });
+
+
+    $(".footer-menu li").each(function(){
+        if($(this).hasClass('active')){
+
+        }else{
+            $(this).hover(
+                    function(){
+                        $(this).find('.purple').stop().animate({'bottom':0,'left':0,'opacity':1},200,'swing');
+                        $(this).find('.gray').stop().animate({'bottom':0,'left':'18px','opacity':1},200,'swing');
+                        $(this).find('.zh-cn').css('display','none');
+                        $(this).find('.cn').fadeIn();
+                    },
+                    function(){
+                        _thiss=$(this);
+                        $(this).find('.purple').stop().animate({'bottom':'-640px','left':'-200px','opacity':1},200,'swing');
+                        $(this).find('.gray').animate({'bottom':'-164px','left':"200px",'opacity':0},200,'swing');
+                        $(this).find('.zh-cn').fadeIn();
+                        $(this).find('.cn').css('display','none');
+                    }
+            )
+        }
+    });
+</script>
+<include file="Public/insert"/>
+</body>
+</html>

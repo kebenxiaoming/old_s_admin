@@ -1,0 +1,51 @@
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+<!-- START 以上内容不需更改，保证该TPL页内的标签匹配即可 -->
+
+<include file="Public/message"/>
+
+<div class="cpgl_cplb">
+    <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_bt">
+        <tr>
+            <td width="130" height="60" align="center">#</td>
+            <td width="151" align="center">发送类型</td>
+            <td width="164" align="center">手机号</td>
+            <td width="136" align="center">内容</td>
+            <td width="139" align="center">发送状态</td>
+            <td width="130" align="center">发送时间</td>
+        </tr>
+    </table>
+    <foreach name="smss" item="sms">
+        <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_nr">
+            <tr>
+                <td width="130" height="48" align="center">{$sms.id}</td>
+                <td width="151" align="center">
+                    <if condition="$sms['type']==1">
+                        验证码
+                        <else/>
+                        普通消息
+                    </if>
+                </td>
+                <td width="151" align="center">{$sms.mobile}</td>
+                <td width="164" align="center">{$sms.content}</td>
+                <td width="136" align="center">
+                    <if condition="$sms['status']==1">
+                        发送成功
+                        <else/>
+                        发送失败
+                    </if>
+                </td>
+                <td width="136" align="center"><php>echo date('Y-m-d H:i:s',$sms['createtime']);</php></td>
+            </tr>
+        </table>
+    </foreach>
+    <div class="intro_cxcp_nr_fy">{$page_html}</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 -->
+<include file="Public/footer"/>

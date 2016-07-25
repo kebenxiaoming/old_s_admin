@@ -1,0 +1,872 @@
+[ 2016-07-21T09:00:31+08:00 ] 192.168.18.107 /admin.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.022001s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 18 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 21 行.
+NOTIC: [8] Undefined variable: error D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2016-07-21T09:00:32+08:00 ] 192.168.18.107 /admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:02+08:00 ] 192.168.18.107 /admin.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 18 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 21 行.
+NOTIC: [8] Undefined variable: error D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:02+08:00 ] 192.168.18.107 /admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:31+08:00 ] 192.168.18.107 /admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:43+08:00 ] 192.168.18.107 /admin.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+NOTIC: [8] Undefined index: remember D:\wamp\www\tp\Application\Admin\Controller\LoginController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `cscrm_user` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `cscrm_user` WHERE `user_name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `cscrm_user_group` WHERE `group_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cscrm_user` SET `user_name`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`real_name`='SomewhereYu',`mobile`='13800138001',`email`='admin@osadmin.org',`user_desc`='初始的超级管理员!',`login_time`='1469062962',`status`='1',`login_ip`='192.168.18.107',`user_type`='0',`user_group`='1',`template`='schoolpainting',`shortcuts`='10,105',`show_quicknote`='0' WHERE `user_id` = 1 [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `cscrm_sys_log` [ RunTime:0.0200s ]
+SQL: INSERT INTO `cscrm_sys_log` (`user_name`,`action`,`class_name`,`class_obj`,`result`,`op_time`) VALUES ('admin','LOGIN','User','1','{\"IP\":\"192.168.18.107\"}','1469062963') [ RunTime:0.0460s ]
+
+[ 2016-07-21T09:02:43+08:00 ] 192.168.18.107 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0000s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Index/index'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 40 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 117 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 118 行.
+NOTIC: [8] Undefined variable: smarty D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 122 行.
+NOTIC: [8] Undefined variable: smarty D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 129 行.
+NOTIC: [8] Undefined variable: action_confirm D:\wamp\www\tp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:02:43+08:00 ] 192.168.18.107 /admin.php/Index/%3C%3E/assets/images/sy_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:49+08:00 ] 192.168.18.107 /admin.php/Dealer/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0000s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Dealer/index'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Admin\Controller\DealerController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `cscrm_dealerinfo` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cscrm_dealerinfo` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM cscrm_dealerinfo d INNER JOIN cscrm_user u ON d.user_id=u.user_id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 39 行.
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 72 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 115 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\d60922d909bd7450a1bfd723b63158fd.php 第 116 行.
+SQL: SELECT `group_name` FROM `cscrm_user_group` WHERE `group_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `group_name` FROM `cscrm_user_group` WHERE `group_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:02:51+08:00 ] 192.168.18.107 /admin.php/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0010s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/index'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Admin\Controller\ProductController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cscrm_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cscrm_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_product` ORDER BY sort ASC,createtime DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_category` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cscrm_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 63 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 116 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:02:53+08:00 ] 192.168.18.107 /admin.php/Product/edit/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0000s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/edit'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_product` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_file` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_file` WHERE `id` IN ('57','59')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_category`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 116 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 117 行.
+NOTIC: [8] Undefined variable: action_confirm D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:02:57+08:00 ] 192.168.18.107 /admin.php/Product/edit/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0010s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/edit'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cscrm_product` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `cscrm_product` SET `pics`='57,59',`cate_id`='9',`title`='天悦燃气热水器11',`price`='1111.00',`sort`='0',`parameter`='JSQ24-12CE1(12T) &gt;&gt;',`detail`='&lt;img src=&quot;/Uploads/Picture/2016-07-19/578dcb0052815.png&quot; alt=&quot;&quot; /&gt;啊啊啊啊' WHERE `id` = 7 [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `cscrm_sys_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `cscrm_sys_log` (`user_name`,`action`,`class_name`,`class_obj`,`result`,`op_time`) VALUES ('admin','MODIFY','Product','7','{\"pics\":\"57,59\",\"cate_id\":\"9\",\"title\":\"\\u5929\\u60a6\\u71c3\\u6c14\\u70ed\\u6c34\\u566811\",\"price\":\"1111.00\",\"sort\":\"0\",\"parameter\":\"JSQ24-12CE1(12T) &gt;&gt;\",\"detail\":\"&lt;img src=&quot;\\/Uploads\\/Picture\\/2016-07-19\\/578dcb0052815.png&quot; alt=&quot;&quot; \\/&gt;\\u554a\\u554a\\u554a\\u554a\",\"id\":7}','1469062977') [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:02:58+08:00 ] 192.168.18.107 /admin.php/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0010s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/index'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0010s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Admin\Controller\ProductController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cscrm_product` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cscrm_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_product` ORDER BY sort ASC,createtime DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_category` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 40 行.
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 63 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 116 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:02:59+08:00 ] 192.168.18.107 /admin.php/Product/edit/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0000s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/edit'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_product` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_file` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_file` WHERE `id` IN ('57','59')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 40 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 116 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 117 行.
+NOTIC: [8] Undefined variable: action_confirm D:\wamp\www\tp\Application\Runtime\Cache\Admin\b3c4eeadefc336ccc37682b1e72f6690.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:03:01+08:00 ] 192.168.18.107 /admin.php/Product/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0010s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Product/category'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0010s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_category` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cscrm_category` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_category` LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 40 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 116 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\10c10e9b47aab3a6c066045acb4ee204.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-21T09:06:46+08:00 ] 192.168.18.107 /admin.php/Designer/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+SQL: SHOW COLUMNS FROM `cscrm_menu_url` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_module` WHERE `online` = 1 ORDER BY  module_sort asc,module_id asc  [ RunTime:0.0000s ]
+SQL: select * from cscrm_menu_url me,cscrm_module mo where me.menu_id in (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124) and me.online = 1 and me.module_id = mo.module_id and mo.online = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 1 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 4 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 5 ORDER BY sort DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 6 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 7 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `is_show` = 1 AND `online` = 1 AND `module_id` = 8 ORDER BY sort DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cscrm_menu_url` WHERE `menu_url` = 'Designer/index'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cscrm_module` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cscrm_module` WHERE ( module_id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cscrm_user_group` [ RunTime:0.0010s ]
+SQL: SELECT `group_role` FROM `cscrm_user_group` WHERE ( group_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Admin\Controller\DesignerController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `cscrm_designerinfo` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cscrm_designerinfo` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM cscrm_designerinfo d INNER JOIN cscrm_user u ON d.user_id=u.user_id  LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Use of undefined constant menu_url - assumed 'menu_url' D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 39 行.
+NOTIC: [8] Undefined index: search D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 82 行.
+NOTIC: [8] Undefined variable: osadmin_action_alert D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 115 行.
+NOTIC: [8] Undefined variable: osadmin_quick_note D:\wamp\www\tp\Application\Runtime\Cache\Admin\1f27349b1aa4771f9e892b2f383fe1eb.php 第 116 行.
+SQL: SHOW COLUMNS FROM `cscrm_area` [ RunTime:0.0230s ]
+SQL: SELECT `area_name` FROM `cscrm_area` WHERE ( area_id=2268 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `area_name` FROM `cscrm_area` WHERE ( area_id=2270 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `area_name` FROM `cscrm_area` WHERE ( area_id=2268 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `area_name` FROM `cscrm_area` WHERE ( area_id=2270 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:30:58+08:00 ] 192.168.18.107 /admin.php/Designer/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+
+[ 2016-07-21T09:30:58+08:00 ] 192.168.18.107 /admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 18 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 21 行.
+NOTIC: [8] Undefined variable: error D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-21T09:30:58+08:00 ] 192.168.18.107 /admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:41:26+08:00 ] 192.168.18.107 /admin.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 18 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 21 行.
+NOTIC: [8] Undefined variable: error D:\wamp\www\tp\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-21T09:41:26+08:00 ] 192.168.18.107 /admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sunny_remember D:\wamp\www\tp\Application\Admin\Common\function.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

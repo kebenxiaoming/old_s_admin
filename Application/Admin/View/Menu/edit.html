@@ -1,0 +1,102 @@
+
+<include file ="Public/header"/>
+<include file ="Public/navibar"/>
+<include file ="Public/sidebar"/>
+
+<!--- START 以上内容不需更改，保证该TPL页内的标签匹配即可 --->
+
+<include file="Public/message"/>
+
+<div class="well">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">请填写功能资料</a></li>
+    </ul>
+
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane active in" id="home">
+
+            <form id="tab" method="post" action="">
+                <label>名称</label>
+                <input type="text" name="menu_name" value="{$currentmenu.menu_name}" class="input-xlarge" required="true">
+                <label>链接 <span class="label label-important">不可重复</span></label>
+                <input type="text" name="menu_url" value="{$currentmenu.menu_url}" class="input-xlarge" required="true" >
+                <label>所属模块</label>
+                <select name="module_id" class="input-xlarge" id="DropDownTimezone">
+                    <php>
+                        foreach($module_options_list as $k=>$val){
+                        if($currentmenu['module_id']==$k){
+                        echo "<option value='".$k."' class='input-xlarge option' id='DropDownTimezone-1' selected='selected'>".$val."</option>";
+                        }else{
+                        echo "<option value='".$k."' class='input-xlarge option' id='DropDownTimezone-1'>".$val."</option>";
+                        }
+                        }
+                    </php>
+                </select>
+                <label>是否显示为左侧菜单</label>
+                <select name="is_show" class="input-xlarge" >
+                    <if condition="$currentmenu['is_show']">
+                        <option value="1" selected >是</option>
+                        <option value="0">否</option>
+                    <else/>
+                        <option value="1"  >是</option>
+                        <option value="0" selected>否</option>
+                    </if>
+                </select>
+                <label>所属菜单</label>
+                <select name="father_menu" class="input-xlarge" id="DropDownTimezone">
+                    <php>
+                        foreach($father_menu_options_list as $k=>$val){
+                        if(is_array($val)){
+                        echo '<optgroup label="'.$k.'">';
+                        foreach($val as $key=>$v){
+                        if($currentmenu['father_menu']==$key){
+                        echo '<option value="'.$key.'" selected="selected" class="input-xlarge option" id="DropDownTimezone-1-0">'.$v.'</option>';
+                        }else{
+                        echo '<option value="'.$key.'" class="input-xlarge option" id="DropDownTimezone-1-0">'.$v.'</option>';
+                        }
+                        }
+                        echo '</optgroup>';
+                        }else{
+                        if($currentmenu['father_menu']==0){
+                        echo '<option value="'.$k.'" selected="selected" class="input-xlarge option" id="DropDownTimezone-0">'.$val.'</option>';
+                        }else{
+                        echo '<option value="'.$k.'" class="input-xlarge option" id="DropDownTimezone-0">'.$val.'</option>';
+                        }
+                        }
+                        }
+                    </php>
+                </select>
+                <label>是否有效</label>
+                <select name="is_online" class="input-xlarge" >
+                    <if condition="$currentmenu['is_online']">
+                        <option value="1" selected>是</option>
+                        <option value="0">否</option>
+                        <else/>
+                        <option value="1" selected>是</option>
+                        <option value="0">否</option>
+                        </if>
+                </select>
+                <label>是否允许快捷菜单 <span class="label label-important">修改/ 删除类链接不允许</span></label>
+                <select name="shortcut_allowed" class="input-xlarge" >
+                    <if condition="$currentmenu['shortcut_allowed']">
+                    <option value="1" selected>是</option>
+                    <option value="0">否</option>
+                        <else/>
+                        <option value="1" >是</option>
+                        <option value="0" selected>否</option>
+                        </if>
+                </select>
+                <label>排序 <span class="label label-important">填写数字，越大越靠前</span></label>
+                <input type="text" name="sort" value="{$currentmenu.sort}" class="input-xlarge" placeholder="越小越靠前，默认0"  required="true" >
+                <label>描述</label>
+                <textarea name="menu_desc" rows="3" class="input-xlarge">{$currentmenu.menu_desc}</textarea>
+                <div class="btn-toolbar">
+                    <button type="submit" class="btn btn-primary"><strong>提交</strong></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--- END 以下内容不需更改，请保证该TPL页内的标签匹配即可 --->
+<include file ="Public/footer"/>
