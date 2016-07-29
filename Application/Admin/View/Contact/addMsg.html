@@ -12,8 +12,8 @@
             <tr>
                 <td width="855" height="80"><div class="cpgl_cptj_xl">
                     <select name="msg_type">
-                        <option value="1">短信联络</option>
-                        <option value="2">邮件联络</option>
+                        <!--<option value="1">短信联络</option>-->
+                        <!--<option value="2">邮件联络</option>-->
                         <option value="3">站内信联络</option>
                     </select>
                 </div></td>
@@ -21,12 +21,19 @@
             <tr>
 
                 <td width="855" height="80"><div class="cpgl_cptj_xl">
-                    <select name="touid">
+                    <if condition="$touids">
+                        发送给：
+                        <volist name="touids" id="user">
+                            <input type="hidden" value="{$user['user_id']}" name="touid[]">
+                            {$user.real_name}&nbsp;
+                        </volist>
+                        <else/>
+                        <select name="touid">
                         <option value="0">全部设计师</option>
                         <foreach name="designers" item="designer">
                         <option value="{$designer.user_id}">{$designer.real_name}</option>
                         </foreach>
-                    </select>
+                    </select></if>
                 </div></td>
             </tr>
             <td width="855" height="194"> <textarea name="msg" id="textarea" onKeyDown="textdown(event)"
