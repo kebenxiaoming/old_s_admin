@@ -32,36 +32,33 @@
         <!--</form>-->
     <!--</div>-->
     <div class="block">
-        <a href="#page-stats" class="block-heading" data-toggle="collapse">账号列表</a>
         <div id="page-stats" class="block-body collapse in">
-            <table class="table table-striped">
-                <thead>
+            <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_bt">
                 <tr>
-                    <th style="width:20px">#</th>
-                    <th style="width:80px">登录名</th>
-                    <th style="width:100px">姓名</th>
-                    <th style="width:100px">手机</th>
-                    <th style="width:80px">邮箱</th>
-                    <th style="width:80px">登录时间</th>
-                    <th style="width:80px">登录IP</th>
-                    <th style="width:80px">Group#</th>
-                    <th style="width:80px">描述</th>
-                    <th style="width:80px">操作</th>
+                    <td width="100" height="60" align="center">#</td>
+                    <td width="111" align="center">用户名</td>
+                    <td width="111" align="center">真名</td>
+                    <td width="124" align="center">手机</td>
+                    <td width="106" align="center">邮箱</td>
+                    <td width="109" align="center">登录时间</td>
+                    <td width="100" align="center">登录IP</td>
+                    <td width="100" align="center">Group#</td>
+                    <td width="100" align="center">描述</td>
                 </tr>
-                </thead>
-                <tbody>
+            </table>
                 <foreach name="user_infos" item="user_info">
+                    <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_nr">
                 <tr>
-                    <td>{$user_info.user_id}</td>
-                    <td>{$user_info.user_name}</td>
-                    <td>{$user_info.real_name}</td>
-                    <td>{$user_info.mobile}</td>
-                    <td>{$user_info.email}</td>
-                    <td>{$user_info.login_time}</td>
-                    <td>{$user_info.login_ip}</td>
-                    <td>{$user_info.group_name}</td>
-                    <td>{$user_info.user_desc}</td>
-                    <td>
+                    <td width="100" align="center">{$user_info.user_id}</td>
+                    <td width="111" align="center">{$user_info.user_name}</td>
+                    <td width="124" align="center">{$user_info.real_name}</td>
+                    <td width="100" align="center">{$user_info.mobile}</td>
+                    <td width="100" align="center">{$user_info.email}</td>
+                    <td width="100" align="center">{$user_info.login_time}</td>
+                    <td width="100" align="center">{$user_info.login_ip}</td>
+                    <td width="100" align="center">{$user_info.group_name}</td>
+                    <td width="100" align="center">{$user_info.user_desc}</td>
+                    <td width="100" align="center">
                         <a href="user_modify.php?user_id=<{$user_info.user_id}>" title= "修改" ><i class="icon-pencil"></i></a>
                         &nbsp;
 
@@ -77,9 +74,8 @@
                         </if>
                     </td>
                 </tr>
+                        </table>
                 </foreach>
-                </tbody>
-            </table>
             <!--- START 分页模板 --->
             {$page_html}
 
