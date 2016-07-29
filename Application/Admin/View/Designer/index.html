@@ -21,7 +21,7 @@
     <foreach name="designers" item="designer">
     <table width="855" border="0" cellspacing="0" cellpadding="0" class="cpgl_cplb_nr">
         <tr>
-            <td width="44" height="48" align="center"><input type="checkbox" name="checkbox" id="checkbox" /></td>
+            <td width="44" height="48" align="center"><input type="checkbox" name="touids" id="checkbox" value="{$designer.user_id}"/></td>
             <td width="99" align="left">{$designer.real_name}</td>
             <td width="147" align="center"><php>echo getLocation($designer['city_id'],$designer['area_id']);</php></td>
             <td width="146" align="center">{$designer.company}</td>
