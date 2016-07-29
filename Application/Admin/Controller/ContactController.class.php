@@ -26,10 +26,18 @@ class ContactController extends AdminController{
     }
     //新增联络
     public function addMsg(){
-        //查询设计师
-        $condition['user_type']=2;
-        $designers=M("User")->where($condition)->select();
-        $this->assign("designers",$designers);
+        $touids=strval($_GET['touids']);
+        if(empty($touids)) {
+            //查询设计师
+            $condition['user_type'] = 2;
+            $designers = M("User")->where($condition)->select();
+            $this->assign("designers", $designers);
+        }else{
+            $uids=explode(",", $touids);
+            $condition['user_id']=array("IN",$uids);
+            $designers = M("User")->where($condition)->select();
+            $this->assign("touids", $designers);
+        }
         if(IS_POST){
             $data=M("Message")->create();
             $data['senduid']=session("user")['user_id'];
@@ -51,6 +59,26 @@ class ContactController extends AdminController{
                     }else{
                         M()->rollback();
                         $this->error("新增联络失败！",U("Contact/addMsg"));die;
+                    }
+                }
+                //给多个用户发消息
+            }elseif(is_array($data['touid'])){
+                foreach($data['touid'] as $k=>$v){
+                    $data['touid']=$v;
+                    $data['createtime']=time();
+                    $dataList[]=$data;
+                }
+                if(!empty($dataList)){
+                    M()->startTrans();
+                    $res=M("Message")->addAll($dataList);
+                    if($res){
+                        M()->commit();
+                        Adminlog(session("user")['user_name'],"ADD" , "Message",$res ,json_encode($dataList) );
+                        $this->sendAllMsg($dataList);
+                        $this->success("新增联络成功！",U("Designer/index"));die;
+                    }else{
+                        M()->rollback();
+                        $this->error("新增联络失败！",U("Designer/index"));die;
                     }
                 }
             }
